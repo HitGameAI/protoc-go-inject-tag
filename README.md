@@ -16,8 +16,9 @@
 ## 安装
 
 ```bash
-git clone https://github.com/kamalyes/protoc-go-inject-tag.git
+git clone https://github.com/HitGameAI/protoc-go-inject-tag.git
 cd protoc-go-inject-tag
+git checkout --detach 1b80c072b6633954844d7a8ebf21ebd11b41ced8
 go build -o protoc-go-inject-tag.exe main.go  # Windows
 go build -o protoc-go-inject-tag main.go      # Linux/Mac
 
